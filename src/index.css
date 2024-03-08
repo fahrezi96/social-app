@@ -1,0 +1,22 @@
+@import url('bootstrap/dist//css/bootstrap.min.css');
+
+.posts > .row,
+.writers > .row,
+.albums > .row {
+  align-items: stretch;
+  row-gap: 1rem;
+}
+
+.posts .card,
+.writers .card {
+  height: 100%;
+}
+
+.card-title {
+  text-transform: capitalize;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: gold !important;
+}
